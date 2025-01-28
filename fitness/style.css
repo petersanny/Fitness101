@@ -1,0 +1,198 @@
+/* Reset some default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Home Section */
+#home {
+  background-image: url('image/innamykytas.jpg'); /* Use a relevant background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#home .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.5rem;
+}
+
+#home .btn {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 0;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* About Section */
+#about img {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Services Section */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Testimonials Section */
+#testimonials .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#testimonials .carousel-item {
+  height: 50%;
+  background-color: #e9ecef;
+}
+
+/* Contact Section */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact .form-control {
+  border-radius: 10px;
+}
+
+#contact .btn {
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+}
+
+/* FAQ Section */
+.accordion-button {
+  background-color: #343a40;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #007bff;
+}
+
+.accordion-body {
+  font-size: 1.1rem;
+}
+
+/* Blog Section */
+#blog .card {
+  border: none;
+  border-radius: 10px;
+}
+
+#blog .card-img-top {
+  border-radius: 10px;
+}
+
+#blog .card-body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+#blog .card-title {
+  font-size: 1.4rem;
+}
+
+#blog .card-text {
+  font-size: 1rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+footer .container {
+  max-width: 1200px;
+}
+
+footer .mt-2 a {
+  margin-right: 15px;
+  font-size: 1.1rem;
+}
+
+footer .mt-3 a {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
